@@ -9,11 +9,12 @@ ___
 + [VirtualBox](https://www.virtualbox.org/) - виртуальная машина, позволяет работать в эмуляции других операционных систем (ОС).
 + [Ubuntu](https://ubuntu.com/download) - оболочка для установки PgAdmin.
 + [PgAdmin](https://www.pgadmin.org/download/) - программа для создания базы данных, позволяеет создавать и управлять базами данных, таблицами, индексами, представлениями и другими объектами базы данных.
-+ [Tables](https://github.com/NiKSaN11/Cinema_home/blob/main/CREATE_sql.txt) - создание табличной части базы данных.
-+ [Inside](https://github.com/NiKSaN11/Cinema_home/blob/main/INSIDE_sql.txt) - заполнение таблиц базы данных информацией.
-+ [Index](https://github.com/NiKSaN11/Cinema_home/blob/main/INDEX_sql.txt) - создание индексов для более быстрого поиска по названиям фильмов и жанров.
-+ [Trigger](https://github.com/NiKSaN11/Cinema_home/blob/main/TRIGGER_sql.txt) - создание триггера, для обновления и актуализации информации по среднему рейтингу фильмов.
-+ [Requests](https://github.com/NiKSaN11/Cinema_home/blob/main/REQUESTS_sql.txt) - 20 рабочих примеров запросов к базе данных.
++ [Tables](https://github.com/NiKSaN11/Cinema_home/blob/main/MD/CREATE_tables_sql.md) - создание табличной части базы данных.
++ [Delete tables](https://github.com/NiKSaN11/Cinema_home/blob/main/MD/DELETE_tables_sql.md) - удаляет таблицы, если они существуют в базе (может понадобиться для перезаливки базы).
++ [Inside](https://github.com/NiKSaN11/Cinema_home/blob/main/MD/INSIDE_sql.md) - заполнение таблиц базы данных информацией.
++ [Index](https://github.com/NiKSaN11/Cinema_home/blob/main/MD/INDEX_sql.md) - создание индексов для более быстрого поиска по названиям фильмов и жанров.
++ [Trigger](https://github.com/NiKSaN11/Cinema_home/blob/main/MD/TRIGGER_sql.md) - создание триггера, для обновления и актуализации информации по среднему рейтингу фильмов.
++ [Requests](https://github.com/NiKSaN11/Cinema_home/blob/main/MD/REQUESTS_sql.md) - 20 рабочих примеров запросов к базе данных.
 ___
 ### **ERD схема базы данных**
 ![2024-01-06_18-40-24](https://github.com/NiKSaN11/Cinema_home/assets/126002033/10904bab-8ba6-4f64-878e-aba8a5decb9f)
