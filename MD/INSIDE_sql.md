@@ -1,9 +1,3 @@
-#### Создание индексов для названия и жанров
-```sql
-CREATE INDEX name ON films(title);
-CREATE INDEX genre ON genres(genre);
-```
-
 #### Заполнение таблицы с актёрами (actors)
 ```sql
 INSERT INTO actors (actor_id, name, surname, date_of_birth, country) VALUES
