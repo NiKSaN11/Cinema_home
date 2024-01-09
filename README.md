@@ -7,10 +7,9 @@ ___
 
 ## **База данных**
 + [VirtualBox](https://www.virtualbox.org/) - виртуальная машина, позволяет работать в эмуляции других операционных систем (ОС).
-+ [Ubuntu](https://ubuntu.com/download) - оболочка для установки PgAdmin.
++ [Ubuntu](https://ubuntu.com/download) - распространённый вариант оболочки для установки PgAdmin.
 + [PgAdmin](https://www.pgadmin.org/download/) - программа для создания базы данных, позволяеет создавать и управлять базами данных, таблицами, индексами, представлениями и другими объектами базы данных.
 + [Tables](https://github.com/NiKSaN11/Cinema_home/blob/main/MD/CREATE_tables_sql.md) - создание табличной части базы данных.
-+ [Delete tables](https://github.com/NiKSaN11/Cinema_home/blob/main/MD/DELETE_tables_sql.md) - удаляет таблицы, если они существуют в базе (может понадобиться для перезаливки базы).
 + [Inside](https://github.com/NiKSaN11/Cinema_home/blob/main/MD/INSIDE_sql.md) - заполнение таблиц базы данных информацией.
 + [Index](https://github.com/NiKSaN11/Cinema_home/blob/main/MD/INDEX_sql.md) - создание индексов для более быстрого поиска по названиям фильмов и жанров.
 + [Trigger](https://github.com/NiKSaN11/Cinema_home/blob/main/MD/TRIGGER_sql.md) - создание триггера, для обновления и актуализации информации по среднему рейтингу фильмов.
