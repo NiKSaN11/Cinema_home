@@ -1,3 +1,17 @@
+### Удаляет таблицы, если они уже есть в базе
+```sql
+SET datestyle TO "ISO, DMY";
+SET client_encoding='utf-8';
+DROP TABLE IF EXISTS director CASCADE;
+DROP TABLE IF EXISTS dirs CASCADE;
+DROP TABLE IF EXISTS few_genres CASCADE;
+DROP TABLE IF EXISTS films CASCADE;
+DROP TABLE IF EXISTS genres;
+DROP TABLE IF EXISTS reviews CASCADE;
+DROP TABLE IF EXISTS starring CASCADE;
+DROP TABLE IF EXISTS users CASCADE;
+DROP TABLE IF EXISTS actor;
+```
 #### Создание таблицы "directors"
 ```sql
 CREATE TABLE directors (
@@ -15,7 +29,6 @@ CREATE TABLE genres (
   genre VARCHAR(255)
 );
 ```sql
-
 #### Создание таблицы "users"
 ```sql
 CREATE TABLE users (
@@ -27,7 +40,6 @@ CREATE TABLE users (
   password VARCHAR(255)
 );
 ```
-
 #### Создание таблицы "users"
 ```sql
 CREATE TABLE users (
@@ -39,7 +51,6 @@ CREATE TABLE users (
   password VARCHAR(255)
 );
 ```
-
 #### Создание таблицы "actors"
 ```sql
 CREATE TABLE actors (
@@ -50,7 +61,6 @@ CREATE TABLE actors (
   country VARCHAR(255)
 );
 ```
-
 #### Создание таблицы "films"
 ```sql
 CREATE TABLE films (
@@ -61,7 +71,6 @@ CREATE TABLE films (
   avg_rating NUMERIC
 );
 ```
-
 #### Создание таблицы "films_actors"
 ```sql
 CREATE TABLE films_actors (
@@ -70,7 +79,6 @@ CREATE TABLE films_actors (
   CONSTRAINT films_actors_pk PRIMARY KEY (film_id, actor_id)
   );
 ```
-
 #### Создание таблицы "films_directors"
 ```sql
 CREATE TABLE films_directors (
@@ -79,7 +87,6 @@ CREATE TABLE films_directors (
   CONSTRAINT films_directors_pk PRIMARY KEY (film_id, director_id)
   );
 ```
-
 #### Создание таблицы "films_genres"
 ```sql
 CREATE TABLE films_genres (
@@ -88,7 +95,6 @@ CREATE TABLE films_genres (
   CONSTRAINT films_genre_pk PRIMARY KEY (film_id, genre_id)
 );
 ```
-
 #### Создание таблицы "reviews"
 ```sql
 CREATE TABLE reviews (
