@@ -27,17 +27,6 @@ CREATE TABLE genres (
 );
 
 -- Создание таблицы "users"
-```sql
-CREATE TABLE users (
-  user_id SERIAL PRIMARY KEY,
-  name VARCHAR(255),
-  surname VARCHAR(255),
-  post VARCHAR(255),
-  login VARCHAR(255),
-  password VARCHAR(255)
-);
-
--- Создание таблицы "users"
 CREATE TABLE users (
   user_id SERIAL PRIMARY KEY,
   name VARCHAR(255),
