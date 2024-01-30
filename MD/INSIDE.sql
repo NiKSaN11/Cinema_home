@@ -133,7 +133,6 @@ INSERT INTO actors (actor_id, name, surname, date_of_birth, country) VALUES
 (131, 'Кастуло', 'Герра', '1957-01-24', 'США'),
 (132, 'Дэнни', 'Кукси', '1959-12-30', 'США'),
 (133, 'Дженетт', 'Голдстин', '1960-03-18', 'США');
-```
 
 -- Заполнение таблицы фильмы
 INSERT INTO films (film_id, title, year_of_release, duration)
